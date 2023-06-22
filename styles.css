@@ -9,9 +9,9 @@
  body{
     font-family: 'Roboto', sans-serif;
     background: hsl(235, 18%, 26%);
-    display: flex;
+     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
    
  }
 
@@ -28,8 +28,9 @@
   
     .container{
       display: flex;
+      margin-top: 10rem;
       justify-content: center;
-      align-items: center;
+      align-items: center; 
       background:  hsl(0, 0%, 100%);
       border-radius: .7rem;
       /* height: 30rem; */
