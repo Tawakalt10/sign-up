@@ -11,7 +11,7 @@
     background: hsl(235, 18%, 26%);
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
    
  }
 
@@ -27,8 +27,9 @@
    }
   
     .container{
-      margin-top: 5rem;
       display: flex;
+      justify-content: center;
+      align-items: center;
       background:  hsl(0, 0%, 100%);
       border-radius: .7rem;
       /* height: 30rem; */
