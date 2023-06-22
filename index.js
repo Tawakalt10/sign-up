@@ -7,9 +7,10 @@ const form = document.querySelector('form'),
         const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
 
         if(!emailInput.value.match(emailPattern)){
-            return field.classList.add("invalid");
+            return field.classList.add("invalid");   
             
         }
+        window.location.assign("submit.html");
         field.classList.remove("invalid");
     };
 
@@ -19,7 +20,7 @@ const form = document.querySelector('form'),
 
          // Calling function on key up
       emailInput.addEventListener('keyup', checkEmail);
-      window.location.assign("submit.html");
+    
             // alert("Successfully subscribed");
     });
 
